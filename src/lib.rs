@@ -49,6 +49,7 @@ mod socket;
 mod utils;
 
 pub use crate::arq::Reliability;
+pub use crate::error::RaknetError;
 pub use crate::log::enable_raknet_log;
 pub use crate::server::*;
 pub use crate::socket::*;
